@@ -2,6 +2,27 @@
     box-sizing: inherit;
 }
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 a,
 a:link,
 a:visited,
@@ -84,7 +105,7 @@ body {
 }
 
 .inicio { 
-    padding-top: 170px;
+    padding-top: 150px;
 }
 
 .banner { 
@@ -128,15 +149,23 @@ body {
 .footer-bottom {
     text-align: center;
     letter-spacing: 15px;
+    padding-top: 10px;
 }
 
 .sobre { 
-    padding-top: 170px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.servicos { 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #DFEAE2;
 }
 
 .contato { 
-    padding-top: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .fundo-title {
@@ -144,6 +173,9 @@ body {
     font-size: 40px;
     color: #207567;
     text-align: center;
+    margin: 0;
+    list-style: none;
+    padding-bottom: 30px;
 }
 
 .fundo-subtitle {
@@ -162,8 +194,12 @@ body {
     font-weight: lighter;
     font-size: 20px;
     color: #207567;
-    text-align: center;
     padding-left: 50px;
+}
+
+.fundo-text p {
+    margin-bottom: 20px;
+    line-height: 30px;
 }
 
 .fundo-subtext {
@@ -203,7 +239,13 @@ body {
     font-weight: lighter;
     font-size: 20px;
     color: white;
-    padding-left: 50px;
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+.contato-text p {
+    margin-bottom: 20px;
+    line-height: 30px;
 }
 
 .formulario { 
@@ -243,4 +285,8 @@ body {
 .formulario-text .formulario-input {
     width: 100%;
     border: 0;
+}
+
+.contato-orcamento {
+    font-weight: bolder;
 }
