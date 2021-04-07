@@ -124,7 +124,8 @@ body {
 }
 
 .banner-image { 
-    width: 1349;
+    width: 100%;
+    max-width: 1920px;
     height: auto;
     opacity: 0.75;
 }
