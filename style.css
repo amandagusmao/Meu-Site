@@ -185,6 +185,7 @@ body {
     font-size: 20px;
     color: #207567;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .text-image { 
@@ -193,25 +194,26 @@ body {
 
 .fundo-text {
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 18px;
     color: #207567;
     padding-left: 50px;
 }
 
 .fundo-text p {
     margin-bottom: 20px;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .fundo-subtext {
-    max-width: 1000px;
-    margin: 0 auto;
     list-style: none;
-    font-size: 20px;
-    color: #207567;
-    text-align: center;
-    padding-bottom: 20px;
+    font-size: 18px;
     font-weight: lighter;
+    color: #207567;
+    padding: 0 30px;
+}
+
+.fundo-subtext li {
+    padding-bottom: 10px;
 }
 
 .fundo-image img { 
@@ -290,4 +292,24 @@ body {
 
 .contato-orcamento {
     font-weight: bolder;
+}
+
+.servicos-box-pai {
+    display: flex;
+}
+
+.servicos-box {
+    width: 50%;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.servicos-box:first-child {
+    margin-right: 20px;
+}
+
+.box-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
