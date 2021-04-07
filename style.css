@@ -1,0 +1,246 @@
+*{ 
+    box-sizing: inherit;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+@font-face {
+    font-family: 'trem';
+    src: url('Balgin-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'trem';
+    src: url('Balgin-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'trem';
+    src: url('Balgin-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: trem, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    background-color: #B4D6C1;
+    padding: 0;
+    margin: 0;            
+}
+
+.container { 
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header { 
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.header-container { 
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 155px;
+}
+
+.menu li {
+    padding: 0 10px;
+}
+
+.menu a {
+    color: #207567;
+    letter-spacing: 1px;
+}
+
+.inicio { 
+    padding-top: 170px;
+}
+
+.banner { 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text { 
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+
+.banner-image { 
+    width: 1349;
+    height: auto;
+    opacity: 0.75;
+}
+
+.footer { 
+    bottom:0;
+    width:100%;
+    background-color: white;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.footer-text {
+    font-weight: lighter;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    color: #207567;
+    margin: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+.sobre { 
+    padding-top: 170px;
+    padding-bottom: 50px;
+}
+
+.contato { 
+    padding-top: 170px;
+}
+
+.fundo-title {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #207567;
+    text-align: center;
+}
+
+.fundo-subtitle {
+    max-width: 1000px;    
+    font-weight: bolder;
+    font-size: 20px;
+    color: #207567;
+    text-align: center;
+}
+
+.text-image { 
+    display: flex;
+}
+
+.fundo-text {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #207567;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.fundo-subtext {
+    max-width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+    font-size: 20px;
+    color: #207567;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.fundo-image img { 
+    box-shadow: 0px 0px 5px black;
+    display: inline-block;
+}
+
+.contact-link {
+    color: #207567;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+    background-color: white;
+    border: 0;
+    font-family: inherit;
+}
+
+.contato-text {
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+}
+
+.formulario { 
+    display: flex;
+    padding: 0 20px;
+    margin: 10px 0 10px 0;
+    flex-grow: 1;
+}
+
+.formulario-text {
+    font-size: 15px;
+    color: #207567;
+    list-style: none;
+    width: 100%;
+}
+
+.formulario-text li { 
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.formulario-button {
+    color: #207567;
+    font-weight: bolder;
+    width: 50px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+    background-color: white;
+    border: 0;
+    font-family: inherit;
+}
+
+.formulario-text .formulario-input {
+    width: 100%;
+    border: 0;
+}
